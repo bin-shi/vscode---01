@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<!-- 文档类型声明标签并不属于HTML的标签 -->
+<html lang="zh-CN">
+<!-- 定义当前文档显示的语言 -->
+
+<head>
+    <meta charset="UTF-8">
+    <!-- 表示字符集的其中一种，用于存储各种各样的字符 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML标签(上)</title>
+</head>
+
+<body>
+    <h1>
+        3点钟啊，饮茶啊！
+    </h1>
+
+    <h3>
+        小猪佩奇：谢谢宁全家了！
+    </h3>
+    <p>想那日束发从军，想那日霜角辕门，想那日挟剑惊风，想那日横槊凌云。帐前旗，腰后印，桃花马，衣柳叶，惊穿胡阵。流光一瞬，离愁一身。望云山，当时壁垒，蔓草斜曛。</p>
+    <p>说起来荷花，可真美呀!美丽的夏天一到，成千上万的荷叶中，无数朵漂亮的荷花缓缓盛开，就像一幅画，更像一首诗。真是：<br />接天莲叶无穷碧，映日荷花别样红。</p>
+    <!-- <br />强制换行标签且是一个单标签 -->
+
+    <p>我是<strong>加粗</strong>标签 我是<b>加粗</b>标签。<br /> 我是<em>倾斜</em>标签我是<i>倾斜</i>标签。<br />我是<del>删除线</del>标签。 我是<s>删除线</s>标签。<br /> 我是<ins>下划线</ins>标签。我是<u>下划线</u>标签</p>
+
+    <h2>
+        div和span标签
+    </h2>
+    <div>我是一个div标签，自己独占一行</div>
+    <div>我是一个div标签，自己独占一行</div><br />
+    <span><strong>大漠叔叔</strong></span>
+    <span><em><strong>你家小叶哥</strong></em></span>
+    <span><ins>叶晨</ins></span>
+    <!-- span标签类似于小盒子，可以好多个span标签共占一行 -->
+
+    <h2>
+        图像标签和路径
+    </h2>
+    <h3 id="one"><strong>沙雕小叶1.0</strong></h3>
+    <img src="images/你是真的牛批（沙雕小叶）.jpg" width="200" />
+
+    <h3><strong>沙雕小叶2.0</strong></h3>
+    <img src="D:\vscode 前端01\images\你是真的牛批（沙雕小叶）001.jpg" width="200" alt="贱内" />
+    <!-- 这里图片的路径是绝对路径因为每个人电脑的文件夹地址不一样，所以一般少用这种方法 -->
+
+    <h3><strong>沙雕小叶3.0</strong></h3>
+    <img src="images/大脸盘子叶.jpg" width="300" title="我的沙雕友友" />
+    <!-- 一般设置width和height时只用设置一个另一个就会对应的缩小 -->
+
+    <h3><strong>沙雕小叶4.0</strong></h3>
+    <img src="images/沙雕-疑惑.jpg" border="7" width="250" title="贱内" />
+    <!-- border="7"设置边框属性 -->
+    <!-- ../ 表示返回上一级目录 -->
+    <h3><strong>震惊！沙雕小叶竟然...</strong></h3>
+    <img src="images/叶叫父.gif" border="7" width="400" title="贱内" alt="贱内" /><br />
+
+    <!-- 超链接用法 -->
+    <a href="https://space.bilibili.com/241449231/" target="_blank">点击这里进入小叶主页</a>_blank跳出一个新的窗口来进入页面<br />
+
+
+    <a href="https://space.bilibili.com/241449231/" target="_self">点击这里进入小叶主页</a>_self在本页面直接进入下一个页面<br />
+    <!-- 其中target="_self"是默认的 -->
+
+    <a href="HTML标签(下).html" target="_blank">进入本网站的内部页面</a>
+    <!-- 内部链接 -->
+
+    <h3>小叶美照（钓鱼专用）</h3>
+    <a href="#">小叶美照</a>
+    <!-- 空连接 -->
+
+    <h2>小叶美照！！！</h2>
+    <a href="images/小叶美照.zip">点击下载</a>
+
+    <h3><strong>沙雕小叶5.0</strong></h3>
+    <a href="https://space.bilibili.com/241449231/"><img src="images/大脸盘子叶.jpg" width="300" title="我的沙雕友友" /></a>
+
+    <h2>锚点链接</h2>
+    <a href="#one">进入沙雕小叶1.0</a>
+    <!-- 现在前面要去的地方定义一个标签，然后再在后面点击想去的地方写下锚点链接 -->
+
+    <h2>特殊字符</h2>
+    <img src="images/特殊字符.png" width="800"><br />
+
+
+</body>
+
+</html>
